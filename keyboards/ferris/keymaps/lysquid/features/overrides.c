@@ -30,6 +30,7 @@ const key_override_t minus_override = ko_make_with_layers(MOD_MASK_SHIFT, KF_MIN
 
 // NAV combinations
 const key_override_t power_override = ko_make_with_layers(MOD_MASK_CTRL,  KF_PSTE, KC_PWR,  NAV_MASK);
+const key_override_t sleep_override = ko_make_with_layers(MOD_MASK_CTRL,  KF_UNDO, KC_SLEP,  NAV_MASK);
 
 #ifdef FRENCH
 // Keypad variant to fix some shortcuts
@@ -54,6 +55,7 @@ const key_override_t **key_overrides = (const key_override_t *[]) {
     &dot_override,
     &minus_override,
     &power_override,
+    &sleep_override,
     #ifdef FRENCH
     &slash_override,
     &override_1,
