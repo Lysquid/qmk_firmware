@@ -1,4 +1,4 @@
-<svg width="672.5" height="2426.0" viewBox="0 0 672.5 2426.0" xmlns="http://www.w3.org/2000/svg">
+<svg width="672.5" height="2207.5" viewBox="0 0 672.5 2207.5" xmlns="http://www.w3.org/2000/svg">
 <style>
     svg {
         background-color: #191a1a;
@@ -655,68 +655,4 @@
 <rect rx="6" ry="6" x="352.0" y="2138.0" width="55" height="45" class="" />
 <rect rx="6" ry="6" x="411.0" y="2138.0" width="55" height="45" class="held" />
 <text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2160.5">SYM</text>
-<rect rx="6" ry="6" x="29.5" y="2209.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="88.5" y="2209.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="147.5" y="2209.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="206.5" y="2209.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="265.5" y="2209.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="29.5" y="2258.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="57.0" y="2281.0">alt</text>
-<rect rx="6" ry="6" x="88.5" y="2258.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="116.0" y="2281.0">super</text>
-<rect rx="6" ry="6" x="147.5" y="2258.5" width="55" height="45" class="held" />
-<text text-anchor="middle" dominant-baseline="middle" x="175.0" y="2281.0">shift</text>
-<rect rx="6" ry="6" x="206.5" y="2258.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="234.0" y="2281.0">ctrl</text>
-<rect rx="6" ry="6" x="265.5" y="2258.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="29.5" y="2307.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="88.5" y="2307.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="147.5" y="2307.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="206.5" y="2307.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="265.5" y="2307.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="352.0" y="2209.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="411.0" y="2209.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2223.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2241.0">mv1</text>
-<rect rx="6" ry="6" x="470.0" y="2209.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="497.5" y="2223.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="497.5" y="2241.0">mv2</text>
-<rect rx="6" ry="6" x="529.0" y="2209.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="556.5" y="2223.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="556.5" y="2241.0">mv3</text>
-<rect rx="6" ry="6" x="588.0" y="2209.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="615.5" y="2223.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="615.5" y="2241.0">mv4</text>
-<rect rx="6" ry="6" x="352.0" y="2258.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="411.0" y="2258.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2272.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2290.0">go1</text>
-<rect rx="6" ry="6" x="470.0" y="2258.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="497.5" y="2272.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="497.5" y="2290.0">go2</text>
-<rect rx="6" ry="6" x="529.0" y="2258.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="556.5" y="2272.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="556.5" y="2290.0">go3</text>
-<rect rx="6" ry="6" x="588.0" y="2258.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="615.5" y="2272.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="615.5" y="2290.0">go4</text>
-<rect rx="6" ry="6" x="352.0" y="2307.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="411.0" y="2307.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2321.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2339.0">go&lt;</text>
-<rect rx="6" ry="6" x="470.0" y="2307.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="497.5" y="2321.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="497.5" y="2339.0">go&gt;</text>
-<rect rx="6" ry="6" x="529.0" y="2307.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="556.5" y="2321.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="556.5" y="2339.0">mv&lt;</text>
-<rect rx="6" ry="6" x="588.0" y="2307.5" width="55" height="45" class="" />
-<text text-anchor="middle" dominant-baseline="middle" x="615.5" y="2321.0">wrksp</text>
-<text text-anchor="middle" dominant-baseline="middle" x="615.5" y="2339.0">mv&gt;</text>
-<rect rx="6" ry="6" x="206.5" y="2356.5" width="55" height="45" class="held" />
-<text text-anchor="middle" dominant-baseline="middle" x="234.0" y="2379.0">NAV</text>
-<rect rx="6" ry="6" x="265.5" y="2356.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="352.0" y="2356.5" width="55" height="45" class="" />
-<rect rx="6" ry="6" x="411.0" y="2356.5" width="55" height="45" class="held" />
-<text text-anchor="middle" dominant-baseline="middle" x="438.5" y="2379.0">SYM</text>
 </svg>

@@ -30,7 +30,6 @@ bool sym_sft_key_down = false;
 bool nav_alt_key_down = false;
 bool nav_gui_key_down = false;
 bool nav_ctl_key_down = false;
-bool num_sft_key_down = false;
 
 void update_key_tri_layers(uint16_t keycode, keyrecord_t *record) {
     update_key_tri_layer(SYM, OS_RSFT, SYM_SFT,
@@ -44,8 +43,5 @@ void update_key_tri_layers(uint16_t keycode, keyrecord_t *record) {
     );
     update_key_tri_layer(NAV, OS_LCTL, NAV_CTL,
         &nav_ctl_key_down, keycode, record, 0
-    );
-    update_key_tri_layer(NUM, OS_LSFT, NUM_SFT,
-        &num_sft_key_down, keycode, record, MOD_MASK_CAG
     );
 }

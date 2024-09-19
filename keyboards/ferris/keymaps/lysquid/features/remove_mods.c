@@ -14,8 +14,7 @@ void save_incompatible_mods(uint16_t keycode, keyrecord_t *record) {
         IS_LAYER_ON(SYM_SFT) ||
         IS_LAYER_ON(NAV_ALT) ||
         IS_LAYER_ON(NAV_GUI) ||
-        IS_LAYER_ON(NAV_CTL) ||
-        IS_LAYER_ON(NUM_SFT);
+        IS_LAYER_ON(NAV_CTL);
 
     uint8_t removed_mods = 0;
 

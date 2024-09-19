@@ -15,7 +15,6 @@ enum layers {
     NAV_CTL,
     NAV_GUI,
     NUM,
-    NUM_SFT,
     SPC,
     SPC2,
     MOS,

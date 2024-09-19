@@ -184,21 +184,7 @@ KEYMAP = [
             ["", "", "", "", ""],
         ],
         "thumbs": {"left": ["NAV", ""], "right": ["", held("SYM")],},
-    },
-    {
-        "optional": True,
-        "left": [
-            ["", "", "", "", ""],
-            ["alt", "super", held("shift"), "ctrl", ""],
-            ["", "", "", "", ""],
-        ],
-        "right": [
-            ["", "wrksp mv1", "wrksp mv2", "wrksp mv3", "wrksp mv4"],
-            ["", "wrksp go1", "wrksp go2", "wrksp go3", "wrksp go4"],
-            ["", "wrksp go&lt;", "wrksp go&gt;", " wrksp mv&lt;", "wrksp mv&gt;"],
-        ],
-        "thumbs": {"left": [held("NAV"), ""], "right": ["", held("SYM")],},
-    },
+    }
 ]
 
 KEYSPACE_W = KEY_W + 2 * INNER_PAD_W

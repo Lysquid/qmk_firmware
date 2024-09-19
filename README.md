@@ -57,7 +57,6 @@ A QMK keymap for the [Sweep][sweep], a split keyboard with 34 keys. It makes ext
 - `NAV`+`super` activates a browser navigation layer
 - `NAV`+`ctrl` activates a shortcuts layer
 - `SYM`+`shift` activates a zoom layer
-- `NUM`+`shift` activates a workspace navigation layer
 
 ### Mouse layer
 

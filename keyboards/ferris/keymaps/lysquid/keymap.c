@@ -82,13 +82,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                         _______,    _______,    _______,    _______
 ),
 
-[NUM_SFT] = LAYOUT(
-    _______,    _______,    _______,    _______,    _______,    _______,    WP_MV_1,    WP_MV_2,    WP_MV_3,    WP_MV_4,
-    _______,    _______,    _______,    _______,    _______,    _______,    WP_GO_1,    WP_GO_2,    WP_GO_3,    WP_GO_4,
-    _______,    _______,    _______,    _______,    _______,    _______,    WP_GO_P,    WP_GO_N,    WP_MV_P,    WP_MV_N,
-                                        _______,    _______,    _______,    _______
-),
-
 [MOS] = LAYOUT(
     XXXXXXX,    OS_BTN2,    OS_BTN3,    OS_BTN1,    KC_BRIU,    DF(DEF2),   KC_WH_L,    KC_MS_U,    KC_WH_R,    XXXXXXX,
     XXXXXXX,    KC_BTN2,    KC_BTN3,    KC_BTN1,    KC_BRID,    DF(DEF),    KC_MS_L,    KC_MS_D,    KC_MS_R,    XXXXXXX,
