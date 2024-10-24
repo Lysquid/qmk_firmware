@@ -21,8 +21,3 @@ void post_process_uppercase_dk_accents(uint16_t keycode, keyrecord_t *record);
 bool french_caps_word_fix(uint16_t keycode, keyrecord_t *record);
 
 bool diaeresis_accent(uint16_t keycode, keyrecord_t *record, uint16_t diaeresis_keycode);
-
-// To be implemented by the consumer.
-// Return the index of the diaeresis version of the letter in the unicode_map,
-// or 0 if there is no diaeresis version
-uint16_t diaeresis_conversion(uint16_t keycode, bool lowercase);

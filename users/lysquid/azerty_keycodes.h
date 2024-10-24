@@ -82,7 +82,10 @@
 #define KF_SCLN FR_SCLN // ;
 #define KF_AT   FR_AT   // @
 #define KF_BSLS FR_BSLS // (backslash)
-#define KF_DIAE FR_DIAE // ¨ (dead)
+
+// Dead keys
+#define KF_DIAE FR_DIAE // ¨
+#define KF_DCRC FR_CIRC // ^
 
 // Specials
 #define KF_AGRV FR_AGRV         // à
@@ -189,40 +192,44 @@
 #define KF_AT   KC_AT   // @
 #define KF_BSLS KC_BSLS // (backslash)
 
+// Dead keys
+#define KF_DIAE ALGR(KC_QUOT)   // ¨
+#define KF_DCRC ALGR(KC_6)      // ^
+
 // Specials
-#define KF_AGRV UP(AG1,AG2) // à
-#define KF_ACRC UP(AC1,AC2) // â
-#define KF_EACU UP(EA1,EA2) // é
-#define KF_EGRV UP(EG1,EG2) // è
-#define KF_ECRC UP(EC1,EC2) // ê
-#define KF_EDIA UP(ED1,ED2) // ë
-#define KF_ICRC UP(IC1,IC2) // î
-#define KF_IDIA UP(ID1,ID2) // ï
-#define KF_OCRC UP(OC1,OC2) // ô
-#define KF_UGRV UP(UG1,UG2) // ù
-#define KF_UCRC UP(UC1,UC2) // û
-#define KF_UDIA UP(UD1,UD2) // ü
-#define KF_AE   UP(AE1,AE2) // æ
-#define KF_OE   UP(OE1,OE2) // œ
-#define KF_CCED UP(CC1,CC2) // ç
-#define KF_NTLD UP(NT1,NT2) // ñ
-#define KF_MICR UM(MU)      // µ
-#define KF_EURO UM(EURO)    // €
-#define KF_IQES UM(IQEST)   // ¿
-#define KF_LAQT UM(LAQOT)   // «
-#define KF_RAQT UM(RAQOT)   // »
-#define KF_LDQT UM(LDQOT)   // “
-#define KF_RDQT UM(RDQOT)   // ”
-#define KF_CPRT UM(CPYRT)   // ©
-#define KF_TM   UM(TM)      // ™
-#define KF_SUP2 UM(SQUAR)   // ²
-#define KF_BDOT UM(BDOT)    // •
-#define KF_MDOT UM(MDOT)    // ·
-#define KF_LARW UM(LAROW)   // ←
-#define KF_RARW UM(RAROW)   // →
-#define KF_DEG  UM(DEG)     // °
-#define KF_CROS UM(CROSS)   // ×
-#define KF_DIFF UM(DIFF)    // ≠
-#define KF_PSMS UM(PSMS)    // ±
+#define KF_AGRV ALGR(KC_A)      // à
+#define KF_ACRC ALGR(KC_Z)      // â
+#define KF_EACU ALGR(KC_E)      // é
+#define KF_EGRV ALGR(KC_R)      // è
+#define KF_ECRC ALGR(KC_D)      // ê
+#define KF_EDIA ALGR(KC_F)      // ë
+#define KF_ICRC ALGR(KC_K)      // î
+#define KF_IDIA ALGR(KC_I)      // ï
+#define KF_OCRC ALGR(KC_O)      // ô
+#define KF_UGRV ALGR(KC_U)      // ù
+#define KF_UCRC ALGR(KC_J)      // û
+#define KF_UDIA ALGR(KC_H)      // ü
+#define KF_AE   ALGR(KC_S)      // æ
+#define KF_OE   ALGR(KC_P)      // œ
+#define KF_CCED ALGR(KC_C)      // ç
+#define KF_NTLD UP(NT1,NT2)     // ñ
+#define KF_MICR UM(MU)          // µ
+#define KF_EURO ALGR(KC_5)      // €
+#define KF_IQES UM(IQEST)       // ¿
+#define KF_LAQT ALGR(KC_LBRC)   // «
+#define KF_RAQT ALGR(KC_RBRC)   // »
+#define KF_LDQT SAGR(KC_LBRC)   // “
+#define KF_RDQT SAGR(KC_RBRC)   // ”
+#define KF_CPRT UM(CPYRT)       // ©
+#define KF_TM   UM(TM)          // ™
+#define KF_SUP2 UM(SQUAR)       // ²
+#define KF_BDOT UM(BDOT)        // •
+#define KF_MDOT UM(MDOT)        // ·
+#define KF_LARW UM(LAROW)       // ←
+#define KF_RARW UM(RAROW)       // →
+#define KF_DEG  SAGR(KC_QUOT)   // °
+#define KF_CROS UM(CROSS)       // ×
+#define KF_DIFF UM(DIFF)        // ≠
+#define KF_PSMS UM(PSMS)        // ±
 
 #endif

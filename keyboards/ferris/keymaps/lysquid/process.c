@@ -18,8 +18,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     dead_key_accents(keycode, record);
     override |= french_caps_word_fix(keycode, record);
     process_uppercase_dk_accents(keycode, record);
-    #else
-    override |= diaeresis_accent(keycode, record, KF_DIAE);
     #endif
 
     save_incompatible_mods(keycode, record);

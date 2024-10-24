@@ -75,22 +75,3 @@ bool french_caps_word_fix(uint16_t keycode, keyrecord_t *record) {
     }
     return false;
 }
-
-static bool next_key_diaeresis = false;
-
-bool diaeresis_accent(uint16_t keycode, keyrecord_t *record, uint16_t diaeresis_keycode) {
-    if (record->event.pressed) {
-        if (keycode == diaeresis_keycode) {
-            next_key_diaeresis = true;
-        } else if (next_key_diaeresis && keycode != KC_RSFT) {
-            next_key_diaeresis = false;
-            bool lowercase = !(get_mods() & MOD_MASK_SHIFT);
-            uint16_t replacement = diaeresis_conversion(keycode, lowercase);
-            if (replacement) {
-                register_unicodemap(replacement);
-                return true;
-            }
-        }
-    }
-    return false;
-}

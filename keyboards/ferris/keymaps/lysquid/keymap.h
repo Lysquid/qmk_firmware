@@ -45,7 +45,5 @@ enum keycodes {
     KF_EDIA,
     KF_IDIA,
     KF_UDIA,
-    #else
-    KF_DIAE,
     #endif
 };
