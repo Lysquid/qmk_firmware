@@ -160,9 +160,9 @@ KEYMAP = [
     {
         "optional": True,
         "left": [
-            ["", "save", "close tab", "sleep", ""],
+            ["", "save", "close tab", "", ""],
             ["alt", "super", "shift", held("ctrl"), ""],
-            ["del", "close app", "term copy", "power off", ""],
+            ["del", "close app", "term copy", "", ""],
         ],
         "right": [
             ["", "", "", "", ""],
